@@ -91,8 +91,7 @@ This command is used to create directories.
 2. **mkdir temp/test :** Create test folder inside temp. temp must be existed before executing this command.
 3. **mkdir -p abc/def :** If abc and def not existed before then using **-p** option we can create this.
 4. **mkdir -p number/{real,rational,integer} :** This will create a number directory which has 3 more directory in it (real,rational,integer).
-5. **mkdir -v number :** This will create temp directory and display message like **"mkdir: created directory 'number'**
-" 
+5. **mkdir -v number :** This will create temp directory and display message like "**mkdir: created directory 'number'**"
 
 
 

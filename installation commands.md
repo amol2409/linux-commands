@@ -3,7 +3,7 @@
 #### Installation
 
 ```
-sudo apt intall gcc
+sudo apt install gcc
 sudo spt install g++
 
 sudo apt-get install gcc

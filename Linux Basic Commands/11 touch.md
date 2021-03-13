@@ -47,3 +47,31 @@ If we don't use any option then all timestamps will change for existed file.
     # only change and modify time will change
     touch -m test
 ```
+
+
+
+**Questions :** All of these examples will work with ***mkdir*** also.
+
+**Q:1** Create 9 files test1 test2 and test9 
+
+``` bash
+    touch test{1,2,3,4,5,6,7,8,9}
+```
+
+**Q2:** Create 9 test files like test1.cpp test2.cpp test3.cpp...
+
+``` bash
+    touch test{1,2,3,4,5,6,7,8,9}.cpp
+```
+
+**Q3:** Create  file like amol-gate, sid-gate, amol-net, sid-net, amol-jre, sid-jre
+
+``` bash
+    touch {amol,sid}-{gate,net,jre}
+```
+
+**Q4:** Create files like a1,a2,..a5   b1,b2..b5 .... e1,e2...e5
+
+``` bash
+    touch {a..e}{1..5}
+```

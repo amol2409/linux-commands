@@ -10,6 +10,8 @@ This command is used to remove directories and files.
 
 2. **-v or --verbose :** Print a message for each directory removed.
 
+3. **-f :** forcing to delete without prompt.
+
 
 **Examples :**
 
@@ -24,4 +26,10 @@ This command is used to remove directories and files.
 ``` bash
     mkdir -p a/b/c/d/e
     rm -r a
+```
+
+**eg3.** To delete all files in a directory.
+
+``` bash
+    rm *
 ```

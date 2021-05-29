@@ -1,13 +1,16 @@
 # mkdir command
-This command is used to create directories.
+
+* This command is used to create directories.
 
 **syntax:** mkdir [options]... [directories name]
 
 **Options:**
+
 1. **-p or --parents :** This option will create parent directory if needed.
-1. **-v or --verbose :** Print a message for each directory created. 
+2. **-v or --verbose :** Print a message for each directory created.
 
 **Examples:**
+
 1. **mkdir temp :** Create temp folder.
 2. **mkdir temp/test :** Create test folder inside temp. temp must be existed before executing this command.
 3. **mkdir -p abc/def :** If abc and def not existed before then using **-p** option we can create this.

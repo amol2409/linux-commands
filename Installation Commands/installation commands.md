@@ -1,18 +1,19 @@
-<h1> Compilers: gcc and g++ </h1> 
+# Compilers: gcc and g++  
 
-#### Installation
+## Installation
 
-```
+``` bash
 sudo apt install gcc
 sudo spt install g++
 
 sudo apt-get install gcc
 sudo apt-get install g++
 ```
-#### Remove installation
+
+## Remove installation
 
 
-#### Check version
+## Check version
 
 ```
 gcc --version

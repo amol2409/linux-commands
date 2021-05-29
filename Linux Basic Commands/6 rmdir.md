@@ -5,7 +5,9 @@ This command is used to remove empty directories or empty directory structure.
 **Syntax :** rmidr [options...] [directory name...]
 
 **Options:**
+
 1. **-p or --parents :** This option will remove all directory structure
+2. **-v or --verbose :** Print a message for each directory removed.
 
 **eg.**
 
@@ -19,5 +21,3 @@ This command is used to remove empty directories or empty directory structure.
     # In order to remove entire directory structure use -p option
     rmdir -p a/b/c/d/e
 ```
-2. **-v or --verbose :** Print a message for each directory removed.
-
